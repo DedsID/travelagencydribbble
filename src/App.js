@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
 import Embark from './components/Embark';
@@ -16,7 +15,7 @@ function App() {
       <Embark />
       <Feature />
       <Services />
-      {/* <Stories /> */}
+      <Stories />
       <Popular />
       <Revo />
       <Footer />

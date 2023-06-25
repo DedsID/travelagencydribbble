@@ -9,9 +9,10 @@
   }
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap');
+
 * {
-  font-family: serif;
-  font-weight: 500;
+  font-family: 'Noto Serif JP', serif;
   color: #222222;
   margin: 0;
 }

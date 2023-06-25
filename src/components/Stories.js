@@ -1,6 +1,7 @@
 import React from 'react';
+import StoriesCard from './CardComp';
 
-const Revo = () => {
+const Stories = () => {
   return (
     <div className="grid 2xl:grid-cols-2 py-40 relative">
       <div className="hidden 2xl:block"></div>
@@ -28,31 +29,26 @@ const Revo = () => {
 
         {/* card */}
 
-        <div className="flex gap-5">
-          <div className="2xl:hidden w-48 bg-white rounded-3xl p-8 py-12">
-            <div className="text-6xl pb-4 relative">
-              500<span className="text-5xl absolute -top-1">+</span>
-            </div>
-            <div className="text-3xl">Destination</div>
-          </div>
-          <div className="w-48 flex-initial bg-white rounded-3xl p-8 py-12">
-            <div className="text-6xl pb-4 relative">
-              12K<span className="text-5xl absolute -top-1">+</span>
-            </div>
-            <div className="text-3xl">Success Journey</div>
-          </div>
-          <div className="bg-white w-48 rounded-3xl p-8 py-12">
-            <div className="text-6xl pb-4 relative">
-              16<span className="text-5xl absolute -top-1">+</span>
-            </div>
-            <div className="text-3xl">Success Journey</div>
-          </div>
-          <div className="bg-white w-48 rounded-3xl p-8 py-12">
-            <div className="text-6xl pb-4 relative">
-              20<span className="text-5xl absolute -top-1">+</span>
-            </div>
-            <div className="text-3xl">Success Journey</div>
-          </div>
+        <div className="flex gap-5 flex-grow">
+
+          {/* <StoriesCard
+            value={500}
+            description="Destination"
+          />
+          <StoriesCard
+            value={12}
+            description="Success Journey"
+          />
+          <StoriesCard
+            value={16}
+            description="Award Winning"
+          />
+          <StoriesCard
+            value={20}
+            description="Years Of Experience"
+          /> */}
+          
+          
         </div>
 
         {/* end card */}
@@ -62,4 +58,4 @@ const Revo = () => {
   );
 };
 
-export default Revo;
+export default Stories;
