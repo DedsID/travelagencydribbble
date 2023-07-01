@@ -1,4 +1,8 @@
 import React, { useRef, useEffect, useState  } from 'react';
+import London from './images/london.jpg';
+import Phiphi from './images/phiphi.jpg';
+import China from './images/cina.jpg';
+import Lombok from './images/lombok.jpg';
 
 const Popular = () => {
   const scrollRef = useRef(null);
@@ -15,69 +19,7 @@ const Popular = () => {
     }
   };
 
-  const [lombokImageUrl, setLombokImageUrl] = useState('');
-  const [cityViewImageUrl, setCityViewImageUrl] = useState('');
-  const [westMinsterBridgeImageUrl, setWestMinsterBridgeImageUrl] = useState('');
-  const [seaBeachPhiPhiUrlImageUrl, setSeaBeachPhiPhiImageUrl] = useState('');
-
-  useEffect(() => {
-    const fetchLombokImage = async () => {
-      try {
-        const response = await fetch('https://source.unsplash.com/featured/?lombok,beautifull');
-        if (response.ok) {
-          setLombokImageUrl(response.url);
-        } else {
-          // Handle error response
-        }
-      } catch (error) {
-        // Handle fetch error
-      }
-    };
-
-    const fetchCityViewImage = async () => {
-      try {
-        const response = await fetch('https://source.unsplash.com/featured/?city,view,china');
-        if (response.ok) {
-          setCityViewImageUrl(response.url);
-        } else {
-          // Handle error response
-        }
-      } catch (error) {
-        // Handle fetch error
-      }
-    };
-
-    const fetchWestMinsterBridgeImage = async () => {
-      try {
-        const response = await fetch('https://source.unsplash.com/featured/?West,Minster,Bridge');
-        if (response.ok) {
-          setWestMinsterBridgeImageUrl(response.url);
-        } else {
-          // Handle error response
-        }
-      } catch (error) {
-        // Handle fetch error
-      }
-    };
-
-    const fetchSeaBeachPhiPhiImage = async () => {
-      try {
-        const response = await fetch('https://source.unsplash.com/featured/?sea,beach,phiphi');
-        if (response.ok) {
-          setSeaBeachPhiPhiImageUrl(response.url);
-        } else {
-          // Handle error response
-        }
-      } catch (error) {
-        // Handle fetch error
-      }
-    };
-
-      fetchLombokImage();
-      fetchCityViewImage();
-      fetchWestMinsterBridgeImage();
-      fetchSeaBeachPhiPhiImage();
-    }, []);
+  
 
   return (
     <div className="">
@@ -119,13 +61,11 @@ const Popular = () => {
       >
 
         <div className="bg-white p-5 scroll-w rounded-3xl">
-          {westMinsterBridgeImageUrl && (
-            <img
-              src={westMinsterBridgeImageUrl}
-              alt="West Minster Bridge"
-              className="h-72 h-64 w-full rounded-3xl"
-            />
-            )}
+          <img
+            src={London}
+            alt="West Minster Bridge"
+            className="h-72 w-full rounded-3xl"
+          />
           <div className="pt-5">Westminster Bridge</div>
           <div className="text-2xl secol pt-2">
           <i className="fa-solid fa-location-dot mr-2"></i> {/* Ikon location-dot dari Font Awesome */}
@@ -142,13 +82,11 @@ const Popular = () => {
         </div>
 
         <div className="bg-white p-5 scroll-w rounded-3xl">
-          {seaBeachPhiPhiUrlImageUrl && (
-            <img
-              src={seaBeachPhiPhiUrlImageUrl}
-              alt="Lombok"
-              className="h-72 h-64 w-full rounded-3xl"
-            />
-            )}
+          <img
+            src={Phiphi}
+            alt="West Minster Bridge"
+            className="h-72 w-full rounded-3xl"
+          />
           <div className="pt-5">Sea Beach Phi Phi Island</div>
           <div className="text-2xl secol pt-2">
           <i className="fa-solid fa-location-dot mr-2"></i> {/* Ikon location-dot dari Font Awesome */}
@@ -165,13 +103,11 @@ const Popular = () => {
         </div>
 
         <div className="bg-white p-5 scroll-w rounded-3xl">
-          {cityViewImageUrl && (
-            <img
-              src={cityViewImageUrl}
-              alt="China"
-              className="h-72 h-64 w-full rounded-3xl"
-            />
-            )}
+          <img
+            src={China}
+            alt="West Minster Bridge"
+            className="h-72 w-full rounded-3xl"
+          />
           <div className="pt-5">Day City View</div>
           <div className="text-2xl secol pt-2">
           <i className="fa-solid fa-location-dot mr-2"></i> {/* Ikon location-dot dari Font Awesome */}
@@ -188,13 +124,11 @@ const Popular = () => {
         </div>
 
         <div className="bg-white p-5 scroll-w rounded-3xl">
-          {lombokImageUrl && (
-            <img
-              src={lombokImageUrl}
-              alt="Lombok"
-              className="h-72 h-64 w-full rounded-3xl"
-            />
-            )}
+          <img
+            src={Lombok}
+            alt="West Minster Bridge"
+            className="h-72 w-full rounded-3xl"
+          />
           <div className="pt-5">Lombok</div>
           <div className="text-2xl secol pt-2">
           <i className="fa-solid fa-location-dot mr-2"></i> {/* Ikon location-dot dari Font Awesome */}

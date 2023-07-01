@@ -1,11 +1,16 @@
 import React from 'react';
+import Stories2 from './images/stories2.png'
 import StoriesCard from './CardComp';
 
 const Stories = () => {
   return (
-    <div className="grid 2xl:grid-cols-2 py-40 relative">
-      <div className="hidden 2xl:block"></div>
-      <div className="hidden 2xl:block absolute bg-white rounded-3xl px-8 py-6 top-60 desti">
+    <div className="grid 2xl:grid-cols-2 relative mt-80">
+
+      <div className="hidden 2xl:block bg-orange-300 rounded-3xl max-w-[650px]">
+        <img src={Stories2} alt="apa aja" className="absolute w-[650px] bottom-0" />
+      </div>
+
+      <div className="hidden 2xl:block absolute bg-white rounded-3xl px-8 py-6 top-20 desti">
         <div className="flex items-center text-6xl pb-2">
           <div className="jingga rounded-full p-2 mr-5 w-24 h-24 flex items-center justify-center">  {/* items-center untuk center secara atasbawah,  justify-center kanankiri*/}
             <i className="fa-solid fa-location-dot"></i> {/* Ikon location-dot dari Font Awesome */}
@@ -27,32 +32,32 @@ const Stories = () => {
           Libero?
         </div>
 
-        {/* card */}
-
         <div className="flex gap-5 flex-grow">
-
-          {/* <StoriesCard
-            value={500}
-            description="Destination"
-          />
-          <StoriesCard
-            value={12}
-            description="Success Journey"
-          />
-          <StoriesCard
-            value={16}
-            description="Award Winning"
-          />
-          <StoriesCard
-            value={20}
-            description="Years Of Experience"
-          /> */}
-          
-          
+          <div className="w-48 bg-white rounded-3xl p-8 py-12 2xl:hidden">
+            <div className="text-6xl pb-4 relative">
+              500<span className="text-5xl absolute -top-1">+</span>
+            </div>
+            <div className="text-3xl">Destination</div>
+          </div>
+          <div className="w-48 bg-white rounded-3xl p-8 py-12">
+            <div className="text-6xl pb-4 relative">
+            12k<span className="text-5xl absolute -top-1">+</span>
+            </div>
+            <div className="text-3xl">Success Journey</div>
+          </div>
+          <div className="w-48 bg-white rounded-3xl p-8 py-12">
+              <div className="text-6xl pb-4 relative">
+              16<span className="text-5xl absolute -top-1">+</span>
+              </div>
+              <div className="text-3xl">Award Winning</div>
+          </div>
+          <div className="w-48 bg-white rounded-3xl p-8 py-12">
+              <div className="text-6xl pb-4 relative">
+              20<span className="text-5xl absolute -top-1">+</span>
+              </div>
+              <div className="text-3xl">Years Of Experience</div>
+          </div>
         </div>
-
-        {/* end card */}
-
       </div>
     </div>
   );

@@ -15,7 +15,7 @@ const Revo = () => {
       <div className="pt-20 relative">
         <div className="flex flex-col gap-y-5 xl:flex-row xl:gap-x-20">
 
-          {/* <RevoCard
+          <RevoCard
             imageSrc={pic1}
             altText="Deskripsi Gambar 1"
             heading="Custom Booking"
@@ -41,7 +41,7 @@ const Revo = () => {
             heading="Instant Itinerary"
             description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
             voluptatum at, molestiae, nostrum adipisicing elit. Amet"
-          /> */}
+          />
           
         </div>
       </div>
