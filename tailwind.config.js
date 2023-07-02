@@ -6,11 +6,11 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-      'laptop': '1680px',
+      'laptop': '1340px',
       'ataslaptop': '1920px',
       },
       colors: {
-        'base' : '#F6F6F6'
+        'bg' : '#F6F6F6'
       }
     },
   },

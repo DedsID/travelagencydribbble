@@ -71,7 +71,7 @@ const Header = () => {
       </nav>
       <a
         href="#"
-        className="bg-trueGray-900 text-xl text-white px-6 py-3 rounded-full"
+        className="bg-trueGray-900 text-lg text-white px-6 py-3 rounded-full"
       >
         Book Now
       </a>

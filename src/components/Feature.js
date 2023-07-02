@@ -9,7 +9,7 @@ const Feature = () => {
           <div className="flex flex-col lg:flex-row justify-between gap-5">
             <div className="flex lg:flex-col gap-5">
               <div className="flex flex-row relative justify-around">
-                <div className="h-full w-20 lg:h-20 lg:rounded-full bg-trueGray flex items-center justify-center lg:outline outline-[40px] outline-base z-20">
+                <div className="h-full w-20 lg:h-20 lg:rounded-full bg-trueGray flex items-center justify-center lg:outline outline-[40px] outline-bg z-20">
                   <span className="text-white text-2xl">01</span>
                 </div>
                 <div className="w-full max-w-2xl border-t-2 border-dashed border-gray-900 absolute top-10 -right-2/4 hidden lg:block"></div>
@@ -28,7 +28,7 @@ const Feature = () => {
 
             <div className="flex lg:flex-col gap-5 flex-row-reverse">
               <div className="flex flex-row relative justify-around">
-                <div className="h-full w-20 lg:h-20 lg:rounded-full bg-trueGray flex items-center justify-center lg:outline outline-[40px] outline-base z-20">
+                <div className="h-full w-20 lg:h-20 lg:rounded-full bg-trueGray flex items-center justify-center lg:outline outline-[40px] outline-bg z-20">
                   <span className="text-white text-2xl">02</span>
                 </div>
               </div>
@@ -46,7 +46,7 @@ const Feature = () => {
 
             <div className="flex lg:flex-col gap-5">
               <div className="flex flex-row relative justify-around">
-                <div className="h-full w-20 lg:h-20 lg:rounded-full bg-trueGray flex items-center justify-center lg:outline outline-[40px] outline-base z-20">
+                <div className="h-full w-20 lg:h-20 lg:rounded-full bg-trueGray flex items-center justify-center lg:outline outline-[40px] outline-bg z-20">
                   <span className="text-white text-2xl">03</span>
                 </div>
                 <div className="w-full max-w-2xl border-t-2 border-dashed border-gray-900 absolute top-10 -left-2/4 hidden lg:block"></div>
