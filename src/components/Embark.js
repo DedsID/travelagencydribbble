@@ -4,6 +4,7 @@ import BaliPic from './images/bali.jpg';
 import Sbali1 from './images/bali1.jpg';
 import Sbali2 from './images/bali2.jpg';
 import Sbali3 from './images/bali3.jpg';
+import Plane from './images/plane.png';
 
 
 const Embark = () => {
@@ -56,8 +57,12 @@ const Embark = () => {
         </div>
       </div>
 
+    {/* gambar */}
+
       <div className='flex-1 relative text-center'>
-        <img src={EmbarkPic} alt="apa aja" className="absolute w-full -top-16 -right-28 hidden 2xl:block max-h-fit" />
+        <img src={EmbarkPic} alt="apa aja" className="absolute w-full max-w-[700px] max-h-[700px] -top-16 -right-28 hidden 2xl:block" />
+        <img src={Plane} alt="apa aja" className="w-20 h-20 absolute top-0" />
+        
 
         {/* Small Card */}
 
@@ -82,6 +87,9 @@ const Embark = () => {
         {/* Small Card End */}
 
       </div>
+
+    {/* gambar end */}
+
     </div>
   );
 };
