@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -38,10 +38,10 @@ const Header = () => {
       </nav>
       <nav
         className={`xl:flex ${
-          isMenuOpen ? 'block' : 'hidden'
+          isMenuOpen ? "block" : "hidden"
         } absolute inset-x-0 top-28 left-0 bg-gray-200 bg-opacity-60 backdrop-filter backdrop-blur-md z-10 xl:relative xl:top-0 xl:bg-opacity-0 rounded-3xl`}
       >
-        <ul className="px-10 py-5 flex flex-col xl:flex-row space-y-4 xl:space-y-0 xl:space-x-4 font-medium text-2xl">
+        <ul className="px-10 py-5 flex flex-col xl:flex-row space-y-4 xl:space-y-0 xl:space-x-4 font-medium text-xl 2xl:text-2xl">
           <li className="xl:px-5">
             <a href="#" className="hover:text-gray-200 font-bold">
               Home

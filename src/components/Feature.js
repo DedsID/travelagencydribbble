@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 
 const Feature = () => {
   return (
-    <div className="pt-40 pb-40">
+    <div className="">
       <center>
-        <h1 className="text-7xl">Our Features</h1>
+        <h1 className="text-5xl 2xl:text-7xl">Our Features</h1>
         <div className="pt-20 relative">
           <div className="flex flex-col lg:flex-row justify-between gap-5">
             <div className="flex lg:flex-col gap-5">
@@ -19,7 +19,7 @@ const Feature = () => {
                 <div className="text-4xl py-5 pb-7 text-left lg:text-center">
                   Dynamic Packaging
                 </div>
-                <div className="secol text-xl text-left lg:text-center leading-relaxed">
+                <div className="secol text-base text-left lg:text-center leading-relaxed">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Reprehenderit blanditiis tempore quam! Quis, dolor hict.
                 </div>
@@ -36,7 +36,7 @@ const Feature = () => {
                 <div className="text-4xl py-5 pb-7 text-right lg:text-center">
                   Instant Itineary
                 </div>
-                <div className="secol text-xl text-right lg:text-center leading-relaxed">
+                <div className="secol text-base text-right lg:text-center leading-relaxed">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Reprehenderit blanditiis tempore quam! Quis, dolor hic eos
                   commodie.
@@ -56,7 +56,7 @@ const Feature = () => {
                 <div className="text-4xl py-5 pb-7 text-left lg:text-center">
                   Multiple Vertical
                 </div>
-                <div className="secol text-xl text-left lg:text-center leading-relaxed">
+                <div className="secol text-base text-left lg:text-center leading-relaxed">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Reprehenderit blanditiis tempore quam! Quis, dolor hic. .
                 </div>

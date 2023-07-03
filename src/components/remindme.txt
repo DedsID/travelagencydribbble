@@ -1,0 +1,2 @@
+PC Display Dimension : 1920px
+Laptop Display Dimension : 1340px

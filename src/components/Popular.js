@@ -1,8 +1,8 @@
-import React, { useRef, useEffect, useState  } from 'react';
-import London from './images/london.jpg';
-import Phiphi from './images/phiphi.jpg';
-import China from './images/cina.jpg';
-import Lombok from './images/lombok.jpg';
+import React, { useRef, useEffect, useState } from "react";
+import London from "./images/london.jpg";
+import Phiphi from "./images/phiphi.jpg";
+import China from "./images/cina.jpg";
+import Lombok from "./images/lombok.jpg";
 
 const Popular = () => {
   const scrollRef = useRef(null);
@@ -19,12 +19,12 @@ const Popular = () => {
     }
   };
 
-  
-
   return (
     <div className="">
       <div className="flex justify-between items-center py-20">
-        <div className="text-7xl max-w-lg">Find Popular Destination</div>
+        <div className="text-5xl 2xl:text-7xl max-w-lg leading-snug">
+          Find Popular Destination
+        </div>
 
         {/* button slider */}
 
@@ -56,98 +56,111 @@ const Popular = () => {
 
       <div
         id="scroll-card"
-        className="scroll-card text-4xl flex flex-row gap-10 overflow-x-hidden overflow-x-auto w-screen max-width scroll-smooth "
+        className="text-3xl 2xl:text-4xl flex flex-row gap-10 overflow-x-hidden overflow-x-auto w-screen max-width scroll-smooth "
         ref={scrollRef}
       >
-
-        <div className="bg-white p-5 scroll-w rounded-3xl">
+        <div className="bg-white p-5 min-w-[25rem] 2xl:min-w-[35rem] rounded-3xl">
           <img
             src={London}
             alt="West Minster Bridge"
             className="h-72 w-full rounded-3xl"
           />
           <div className="pt-5">Westminster Bridge</div>
-          <div className="text-2xl secol pt-2">
-          <i className="fa-solid fa-location-dot mr-2"></i> {/* Ikon location-dot dari Font Awesome */}
+          <div className="text-xl secol pt-2">
+            <i className="fa-solid fa-location-dot mr-2"></i>{" "}
+            {/* Ikon location-dot dari Font Awesome */}
             London, Uk
           </div>
           <div className="pt-5 flex justify-between items-center">
             <div className="text-3xl">
-              $120<span className="text-2xl secol pt-2">/Person</span>
+              $120<span className="text-xl secol pt-2">/Person</span>
             </div>
-            <a href="#" className="text-xl bg-trueGray-900 text-white px-6 py-4 rounded-full">
+            <a
+              href="#"
+              className="text-xl bg-trueGray-900 text-white px-4 py-2 2xl:px-6 2xl:py-4 rounded-full"
+            >
               Book Now
             </a>
           </div>
         </div>
 
-        <div className="bg-white p-5 scroll-w rounded-3xl">
+        <div className="bg-white p-5 min-w-[25rem] 2xl:min-w-[35rem] rounded-3xl">
           <img
             src={Phiphi}
             alt="West Minster Bridge"
             className="h-72 w-full rounded-3xl"
           />
           <div className="pt-5">Sea Beach Phi Phi Island</div>
-          <div className="text-2xl secol pt-2">
-          <i className="fa-solid fa-location-dot mr-2"></i> {/* Ikon location-dot dari Font Awesome */}
+          <div className="text-xl secol pt-2">
+            <i className="fa-solid fa-location-dot mr-2"></i>{" "}
+            {/* Ikon location-dot dari Font Awesome */}
             Krabi Province, Thailand
           </div>
           <div className="pt-5 flex justify-between items-center">
             <div className="text-3xl">
-              $120<span className="text-2xl secol pt-2">/Person</span>
+              $120<span className="text-xl secol pt-2">/Person</span>
             </div>
-            <a href="#" className="text-xl bg-trueGray-900 text-white px-6 py-4 rounded-full">
+            <a
+              href="#"
+              className="text-xl bg-trueGray-900 text-white px-4 py-2 2xl:px-6 2xl:py-4 rounded-full"
+            >
               Book Now
             </a>
           </div>
         </div>
 
-        <div className="bg-white p-5 scroll-w rounded-3xl">
+        <div className="bg-white p-5 min-w-[25rem] 2xl:min-w-[35rem] rounded-3xl">
           <img
             src={China}
             alt="West Minster Bridge"
             className="h-72 w-full rounded-3xl"
           />
           <div className="pt-5">Day City View</div>
-          <div className="text-2xl secol pt-2">
-          <i className="fa-solid fa-location-dot mr-2"></i> {/* Ikon location-dot dari Font Awesome */}
+          <div className="text-xl secol pt-2">
+            <i className="fa-solid fa-location-dot mr-2"></i>{" "}
+            {/* Ikon location-dot dari Font Awesome */}
             China
           </div>
           <div className="pt-5 flex justify-between items-center">
             <div className="text-3xl">
-              $120<span className="text-2xl secol pt-2">/Person</span>
+              $120<span className="text-xl secol pt-2">/Person</span>
             </div>
-            <a href="#" className="text-xl bg-trueGray-900 text-white px-6 py-4 rounded-full">
+            <a
+              href="#"
+              className="text-xl bg-trueGray-900 text-white px-4 py-2 2xl:px-6 2xl:py-4 rounded-full"
+            >
               Book Now
             </a>
           </div>
         </div>
 
-        <div className="bg-white p-5 scroll-w rounded-3xl">
+        <div className="bg-white p-5 min-w-[25rem] 2xl:min-w-[35rem] rounded-3xl">
           <img
             src={Lombok}
             alt="West Minster Bridge"
             className="h-72 w-full rounded-3xl"
           />
           <div className="pt-5">Lombok</div>
-          <div className="text-2xl secol pt-2">
-          <i className="fa-solid fa-location-dot mr-2"></i> {/* Ikon location-dot dari Font Awesome */}
+          <div className="text-xl secol pt-2">
+            <i className="fa-solid fa-location-dot mr-2"></i>{" "}
+            {/* Ikon location-dot dari Font Awesome */}
             Indonesia
           </div>
           <div className="pt-5 flex justify-between items-center">
             <div className="text-3xl">
-              $120<span className="text-2xl secol pt-2">/Person</span>
+              $120<span className="text-xl secol pt-2">/Person</span>
             </div>
-            <a href="#" className="text-xl bg-trueGray-900 text-white px-6 py-4 rounded-full">
+            <a
+              href="#"
+              className="text-xl bg-trueGray-900 text-white px-4 py-2 2xl:px-6 2xl:py-4 rounded-full"
+            >
               Book Now
             </a>
           </div>
         </div>
-        
       </div>
 
       {/* card end */}
-
     </div>
   );
 };
