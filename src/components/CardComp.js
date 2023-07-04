@@ -3,15 +3,15 @@ import React from "react";
 const RevoCard = ({ imageSrc, altText, heading, description }) => {
   return (
     <div>
-      <div className="h-96 xl:w-96">
+      <div className="">
         <img
           src={imageSrc}
           alt={altText}
-          className="w-full rounded-3xl h-full object-cover"
+          className="w-full h-64 xl:aspect-square rounded-3xl object-cover"
         />
       </div>
-      <div className="text-3xl 2xl:text-5xl py-5">{heading}</div>
-      <div className="text-base 2xl:text-xl secol">{description}</div>
+      <div className="text-2xl 2xl:text-5xl py-5 font-semibold">{heading}</div>
+      <div className="text-sm 2xl:text-xl secol">{description}</div>
     </div>
   );
 };

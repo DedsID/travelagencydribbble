@@ -4,7 +4,7 @@ import StoriesCard from "./CardComp";
 
 const Stories = () => {
   return (
-    <div className="grid laptop:grid-cols-2 relative">
+    <div className="grid laptop:grid-cols-2 relative mt-40">
       <div>
         <div className="hidden laptop:block bg-orange-300 rounded-3xl max-w-[530px] max-h-[530px] 2xl:max-w-[650px] 2xl:max-h-[650px] absolute bottom-0">
           <img
@@ -22,10 +22,12 @@ const Stories = () => {
             <i className="fa-solid fa-location-dot"></i>
             {/* Ikon location-dot dari Font Awesome */}
           </div>
-          <div>
+          <div className="font-semibold">
             <div className="relative">
               500
-              <span className="text-4xl 2xl:text-5xl absolute -top-1">+</span>
+              <span className="text-4xl 2xl:text-5xl absolute top-1 pl-1">
+                +
+              </span>
             </div>
             <div className="text-lg 2xl:text-2xl pt-2">Destination</div>
           </div>
@@ -33,7 +35,7 @@ const Stories = () => {
       </div>
 
       <div className="laptop:pl-20 2xl:pl-36">
-        <div className="text-5xl 2xl:text-7xl pb-10 leading-snug">
+        <div className="text-5xl 2xl:text-7xl pb-10 leading-snug font-semibold">
           Our Stories Have Adventures
         </div>
         <div className="text-base 2xl:text-xl secol pb-10 leading-snug">
@@ -44,32 +46,40 @@ const Stories = () => {
         </div>
 
         <div className="flex gap-5 flex-grow">
-          <div className="w-36 2xl:w-48 bg-white rounded-3xl p-4 py-10 2xl:p-8 2xl:py-12 laptop:hidden">
+          <div className="w-36 2xl:w-48 bg-white rounded-3xl p-4 py-10 2xl:p-8 2xl:py-12 font-semibold laptop:hidden">
             <div className="text-5xl 2xl:text-6xl pb-4 relative">
               500
-              <span className="text-4xl 2xl:text-5xl absolute -top-1">+</span>
+              <span className="text-4xl 2xl:text-5xl absolute top-1 pl-1">
+                +
+              </span>
             </div>
             <div className="text-lg 2xl:text-2xl">Destination</div>
           </div>
 
-          <div className="w-36 2xl:w-48 bg-white rounded-3xl p-4 py-10 2xl:p-8 2xl:py-12">
+          <div className="w-36 2xl:w-48 bg-white rounded-3xl p-4 py-10 2xl:p-8 2xl:py-12 font-semibold">
             <div className="text-5xl 2xl:text-6xl pb-4 relative">
               12k
-              <span className="text-4xl 2xl:text-5xl absolute -top-1">+</span>
+              <span className="text-4xl 2xl:text-5xl absolute top-1 pl-1">
+                +
+              </span>
             </div>
             <div className="text-lg 2xl:text-2xl">Success Journey</div>
           </div>
-          <div className="w-36 2xl:w-48 bg-white rounded-3xl p-4 py-10 2xl:p-8 2xl:py-12">
+          <div className="w-36 2xl:w-48 bg-white rounded-3xl p-4 py-10 2xl:p-8 2xl:py-12 font-semibold">
             <div className="text-5xl 2xl:text-6xl pb-4 relative">
               16
-              <span className="text-4xl 2xl:text-5xl absolute -top-1">+</span>
+              <span className="text-4xl 2xl:text-5xl absolute top-1 pl-1">
+                +
+              </span>
             </div>
             <div className="text-lg 2xl:text-2xl">Award Winning</div>
           </div>
-          <div className="w-36 2xl:w-48 bg-white rounded-3xl p-4 py-10 2xl:p-8 2xl:py-12">
+          <div className="w-36 2xl:w-48 bg-white rounded-3xl p-4 py-10 2xl:p-8 2xl:py-12 font-semibold">
             <div className="text-5xl 2xl:text-6xl pb-4 relative">
               20
-              <span className="text-4xl 2xl:text-5xl absolute -top-1">+</span>
+              <span className="text-4xl 2xl:text-5xl absolute top-1 pl-1">
+                +
+              </span>
             </div>
             <div className="text-lg 2xl:text-2xl">Years Of Experience</div>
           </div>

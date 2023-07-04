@@ -64,17 +64,20 @@ const Embark = () => {
           alt="apa aja"
           className="absolute w-full max-w-[700px] max-h-[700px] -top-16 -right-28"
         />
-        <img src={Plane} alt="apa aja" className="w-20 h-20 absolute top-0" />
-
+        <img
+          src={Plane}
+          alt="apa aja"
+          className="w-24 h-24 absolute -top-8 -left-10 opacity-50"
+        />{" "}
+        {/** pesawat pesawatan */}
         {/* Small Card */}
-
         <div className="absolute top-24 2xl:top-36 left-14">
-          <div className="flex relative bg-white rounded-3xl flex-col w-[100px] 2xl:w-[150px] gap-2">
-            <div className="absolute bg-white px-3 py-1 rounded-xl -right-11 top-12 text-xs">
-              <i className="fa-solid fa-location-dot pr-2"></i>
+          <div className="flex relative bg-white rounded-xl flex-col w-[100px] 2xl:w-[150px] gap-2">
+            <div className="absolute bg-white px-3 py-1 rounded-lg -right-11 top-8 2xl:top-12 text-[9px] 2xl:text-xs">
+              <i className="fa-solid fa-location-dot pr-1 2xl:pr-2"></i>
               Indonesia
             </div>
-            <img src={BaliPic} alt="apa aja" className="w-full rounded-t-3xl" />
+            <img src={BaliPic} alt="apa aja" className="w-full rounded-t-xl" />
             <div className="text-xs 2xl:text-sm">Bali, Indonesia</div>
             <div className="flex flex-row items-center justify-center -mb-4">
               <img
@@ -95,7 +98,6 @@ const Embark = () => {
             </div>
           </div>
         </div>
-
         {/* Small Card End */}
       </div>
 
@@ -105,4 +107,3 @@ const Embark = () => {
 };
 
 export default Embark;
-

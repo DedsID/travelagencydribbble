@@ -20,9 +20,9 @@ const Popular = () => {
   };
 
   return (
-    <div className="">
+    <div className="mt-40">
       <div className="flex justify-between items-center py-20">
-        <div className="text-5xl 2xl:text-7xl max-w-lg leading-snug">
+        <div className="text-5xl 2xl:text-7xl max-w-lg leading-snug font-semibold">
           Find Popular Destination
         </div>
 
@@ -65,15 +65,16 @@ const Popular = () => {
             alt="West Minster Bridge"
             className="h-72 w-full rounded-3xl"
           />
-          <div className="pt-5">Westminster Bridge</div>
+          <div className="pt-5 font-semibold">Westminster Bridge</div>
           <div className="text-xl secol pt-2">
             <i className="fa-solid fa-location-dot mr-2"></i>{" "}
             {/* Ikon location-dot dari Font Awesome */}
             London, Uk
           </div>
           <div className="pt-5 flex justify-between items-center">
-            <div className="text-3xl">
-              $120<span className="text-xl secol pt-2">/Person</span>
+            <div className="text-3xl font-semibold">
+              $120
+              <span className="text-xl secol pt-2 font-normal">/Person</span>
             </div>
             <a
               href="#"
@@ -90,15 +91,16 @@ const Popular = () => {
             alt="West Minster Bridge"
             className="h-72 w-full rounded-3xl"
           />
-          <div className="pt-5">Sea Beach Phi Phi Island</div>
+          <div className="pt-5 font-semibold">Sea Beach Phi Phi Island</div>
           <div className="text-xl secol pt-2">
             <i className="fa-solid fa-location-dot mr-2"></i>{" "}
             {/* Ikon location-dot dari Font Awesome */}
             Krabi Province, Thailand
           </div>
           <div className="pt-5 flex justify-between items-center">
-            <div className="text-3xl">
-              $120<span className="text-xl secol pt-2">/Person</span>
+            <div className="text-3xl font-semibold">
+              $120
+              <span className="text-xl secol pt-2 font-normal">/Person</span>
             </div>
             <a
               href="#"
@@ -115,15 +117,16 @@ const Popular = () => {
             alt="West Minster Bridge"
             className="h-72 w-full rounded-3xl"
           />
-          <div className="pt-5">Day City View</div>
+          <div className="pt-5 font-semibold">Day City View</div>
           <div className="text-xl secol pt-2">
             <i className="fa-solid fa-location-dot mr-2"></i>{" "}
             {/* Ikon location-dot dari Font Awesome */}
             China
           </div>
           <div className="pt-5 flex justify-between items-center">
-            <div className="text-3xl">
-              $120<span className="text-xl secol pt-2">/Person</span>
+            <div className="text-3xl font-semibold">
+              $120
+              <span className="text-xl secol pt-2 font-normal">/Person</span>
             </div>
             <a
               href="#"
@@ -140,15 +143,16 @@ const Popular = () => {
             alt="West Minster Bridge"
             className="h-72 w-full rounded-3xl"
           />
-          <div className="pt-5">Lombok</div>
+          <div className="pt-5 font-semibold">Lombok</div>
           <div className="text-xl secol pt-2">
             <i className="fa-solid fa-location-dot mr-2"></i>{" "}
             {/* Ikon location-dot dari Font Awesome */}
             Indonesia
           </div>
           <div className="pt-5 flex justify-between items-center">
-            <div className="text-3xl">
-              $120<span className="text-xl secol pt-2">/Person</span>
+            <div className="text-3xl font-semibold">
+              $120
+              <span className="text-xl secol pt-2 font-normal">/Person</span>
             </div>
             <a
               href="#"

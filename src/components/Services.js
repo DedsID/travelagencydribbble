@@ -7,7 +7,7 @@ import Plane from "./images/plane.png";
 
 const Services = () => {
   return (
-    <div className="flex">
+    <div className="flex mt-40">
       <div className="md:max-w-sm 2xl:max-w-lg">
         <div className="text-5xl 2xl:text-7xl pb-14 leading-snug 2xl:leading-snug font-semibold">
           What Services We Provide
@@ -36,27 +36,27 @@ const Services = () => {
         <img
           src={Plane}
           alt="apa aja"
-          className="absolute w-[90%] opacity-30 -top-20 2xl:-top-24"
+          className="absolute w-[80%] opacity-30 -top-20 2xl:-top-24"
         />
         <img
-          src={Pic1}
+          src={Pic1} // kiri atas
           alt="apa aja"
-          className="absolute rounded-full w-48 h-48 2xl:w-60 2xl:h-60 top-0 left-0 object-cover"
+          className="absolute rounded-full w-52 h-52 2xl:w-60 2xl:h-60 top-0 left-0 object-cover"
         />
         <img
-          src={Pic2}
+          src={Pic2} // kanan atas
           alt="apa aja"
-          className="absolute rounded-full w-48 h-48 2xl:w-72 2xl:h-72 top-44 2xl:top-24 right-0 object-cover"
+          className="absolute rounded-full w-80 h-80 2xl:w-72 2xl:h-72 top-20 2xl:top-24 right-0 object-cover"
         />
         <img
-          src={pic3}
+          src={pic3} //kiri bawah
           alt="apa aja"
-          className="absolute rounded-full w-48 h-48 2xl:w-72 2xl:h-72 bottom-44 2xl:bottom-24 left-0 object-cover"
+          className="absolute rounded-full w-80 h-80 2xl:w-72 2xl:h-72 bottom-20 2xl:bottom-24 left-0 object-cover"
         />
         <img
-          src={Pic4}
+          src={Pic4} // kanan bawah
           alt="apa aja"
-          className="absolute rounded-full w-48 h-48 2xl:w-60 2xl:h-60 bottom-0 right-20 object-cover"
+          className="absolute rounded-full w-52 h-52 2xl:w-60 2xl:h-60 bottom-0 right-20 object-cover"
         />
       </div>
     </div>

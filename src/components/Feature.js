@@ -2,9 +2,9 @@ import React from "react";
 
 const Feature = () => {
   return (
-    <div className="">
+    <div className="mt-40">
       <center>
-        <h1 className="text-5xl 2xl:text-7xl">Our Features</h1>
+        <h1 className="text-5xl 2xl:text-7xl font-semibold">Our Features</h1>
         <div className="pt-20 relative">
           <div className="flex flex-col lg:flex-row justify-between gap-5">
             <div className="flex lg:flex-col gap-5">
@@ -16,7 +16,7 @@ const Feature = () => {
                 {/* menambah garis putus2 */}
               </div>
               <div className="">
-                <div className="text-4xl py-5 pb-7 text-left lg:text-center">
+                <div className="text-4xl py-5 pb-7 text-left lg:text-center font-semibold">
                   Dynamic Packaging
                 </div>
                 <div className="secol text-base text-left lg:text-center leading-relaxed">
@@ -33,7 +33,7 @@ const Feature = () => {
                 </div>
               </div>
               <div className="">
-                <div className="text-4xl py-5 pb-7 text-right lg:text-center">
+                <div className="text-4xl py-5 pb-7 text-right lg:text-center font-semibold">
                   Instant Itineary
                 </div>
                 <div className="secol text-base text-right lg:text-center leading-relaxed">
@@ -53,7 +53,7 @@ const Feature = () => {
                 {/* menambah garis putus2 */}
               </div>
               <div className="">
-                <div className="text-4xl py-5 pb-7 text-left lg:text-center">
+                <div className="text-4xl py-5 pb-7 text-left lg:text-center font-semibold">
                   Multiple Vertical
                 </div>
                 <div className="secol text-base text-left lg:text-center leading-relaxed">
