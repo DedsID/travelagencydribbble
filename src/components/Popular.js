@@ -22,7 +22,7 @@ const Popular = () => {
   return (
     <div className="mt-40">
       <div className="flex justify-between items-center py-20">
-        <div className="text-5xl 2xl:text-7xl max-w-lg leading-snug font-semibold">
+        <div className="text-6xl 2xl:text-7xl max-w-lg leading-snug font-semibold">
           Find Popular Destination
         </div>
 
@@ -56,7 +56,7 @@ const Popular = () => {
 
       <div
         id="scroll-card"
-        className="text-3xl 2xl:text-4xl flex flex-row gap-10 overflow-x-hidden overflow-x-auto w-screen max-width scroll-smooth "
+        className="text-2xl 2xl:text-4xl flex flex-row gap-10 overflow-x-hidden overflow-x-auto w-screen max-width scroll-smooth "
         ref={scrollRef}
       >
         <div className="bg-white p-5 min-w-[25rem] 2xl:min-w-[35rem] rounded-3xl">
@@ -66,19 +66,21 @@ const Popular = () => {
             className="h-72 w-full rounded-3xl"
           />
           <div className="pt-5 font-semibold">Westminster Bridge</div>
-          <div className="text-xl secol pt-2">
+          <div className="text-xl 2xl:text-2xl secol pt-2 2xl:pt-4">
             <i className="fa-solid fa-location-dot mr-2"></i>{" "}
             {/* Ikon location-dot dari Font Awesome */}
             London, Uk
           </div>
           <div className="pt-5 flex justify-between items-center">
-            <div className="text-3xl font-semibold">
+            <div className="text-3xl 2xl:text-4xl font-semibold">
               $120
-              <span className="text-xl secol pt-2 font-normal">/Person</span>
+              <span className="text-xl 2xl:text-2xl secol pt-2 font-normal">
+                /Person
+              </span>
             </div>
             <a
               href="#"
-              className="text-xl bg-trueGray-900 text-white px-4 py-2 2xl:px-6 2xl:py-4 rounded-full"
+              className="text-lg bg-trueGray-900 text-white px-4 py-2 2xl:px-6 2xl:py-4 rounded-full"
             >
               Book Now
             </a>
@@ -92,19 +94,21 @@ const Popular = () => {
             className="h-72 w-full rounded-3xl"
           />
           <div className="pt-5 font-semibold">Sea Beach Phi Phi Island</div>
-          <div className="text-xl secol pt-2">
+          <div className="text-xl 2xl:text-2xl secol pt-2 2xl:pt-4">
             <i className="fa-solid fa-location-dot mr-2"></i>{" "}
             {/* Ikon location-dot dari Font Awesome */}
             Krabi Province, Thailand
           </div>
           <div className="pt-5 flex justify-between items-center">
-            <div className="text-3xl font-semibold">
+            <div className="text-3xl 2xl:text-4xl font-semibold">
               $120
-              <span className="text-xl secol pt-2 font-normal">/Person</span>
+              <span className="text-xl 2xl:text-2xl secol pt-2 font-normal">
+                /Person
+              </span>
             </div>
             <a
               href="#"
-              className="text-xl bg-trueGray-900 text-white px-4 py-2 2xl:px-6 2xl:py-4 rounded-full"
+              className="text-lg bg-trueGray-900 text-white px-4 py-2 2xl:px-6 2xl:py-4 rounded-full"
             >
               Book Now
             </a>
@@ -118,19 +122,21 @@ const Popular = () => {
             className="h-72 w-full rounded-3xl"
           />
           <div className="pt-5 font-semibold">Day City View</div>
-          <div className="text-xl secol pt-2">
+          <div className="text-xl 2xl:text-2xl secol pt-2 2xl:pt-4">
             <i className="fa-solid fa-location-dot mr-2"></i>{" "}
             {/* Ikon location-dot dari Font Awesome */}
             China
           </div>
           <div className="pt-5 flex justify-between items-center">
-            <div className="text-3xl font-semibold">
+            <div className="text-3xl 2xl:text-4xl font-semibold">
               $120
-              <span className="text-xl secol pt-2 font-normal">/Person</span>
+              <span className="text-xl 2xl:text-2xl secol pt-2 font-normal">
+                /Person
+              </span>
             </div>
             <a
               href="#"
-              className="text-xl bg-trueGray-900 text-white px-4 py-2 2xl:px-6 2xl:py-4 rounded-full"
+              className="text-lg bg-trueGray-900 text-white px-4 py-2 2xl:px-6 2xl:py-4 rounded-full"
             >
               Book Now
             </a>
@@ -144,19 +150,21 @@ const Popular = () => {
             className="h-72 w-full rounded-3xl"
           />
           <div className="pt-5 font-semibold">Lombok</div>
-          <div className="text-xl secol pt-2">
+          <div className="text-xl 2xl:text-2xl secol pt-2 2xl:pt-4">
             <i className="fa-solid fa-location-dot mr-2"></i>{" "}
             {/* Ikon location-dot dari Font Awesome */}
             Indonesia
           </div>
           <div className="pt-5 flex justify-between items-center">
-            <div className="text-3xl font-semibold">
+            <div className="text-3xl 2xl:text-4xl font-semibold">
               $120
-              <span className="text-xl secol pt-2 font-normal">/Person</span>
+              <span className="text-xl 2xl:text-2xl secol pt-2 font-normal">
+                /Person
+              </span>
             </div>
             <a
               href="#"
-              className="text-xl bg-trueGray-900 text-white px-4 py-2 2xl:px-6 2xl:py-4 rounded-full"
+              className="text-lg bg-trueGray-900 text-white px-4 py-2 2xl:px-6 2xl:py-4 rounded-full"
             >
               Book Now
             </a>

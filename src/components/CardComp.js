@@ -7,11 +7,15 @@ const RevoCard = ({ imageSrc, altText, heading, description }) => {
         <img
           src={imageSrc}
           alt={altText}
-          className="w-full h-64 xl:aspect-square rounded-3xl object-cover"
+          className="w-full max-2xl:h-64 aspect-square rounded-3xl object-cover"
         />
       </div>
-      <div className="text-2xl 2xl:text-5xl py-5 font-semibold">{heading}</div>
-      <div className="text-sm 2xl:text-xl secol">{description}</div>
+      <div className="text-2xl 2xl:text-4xl py-5 2xl:py-7 font-semibold">
+        {heading}
+      </div>
+      <div className="text-sm 2xl:text-xl secol leading-relaxed pb-12">
+        {description}
+      </div>
     </div>
   );
 };

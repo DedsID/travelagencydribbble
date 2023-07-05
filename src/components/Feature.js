@@ -4,7 +4,7 @@ const Feature = () => {
   return (
     <div className="mt-40">
       <center>
-        <h1 className="text-5xl 2xl:text-7xl font-semibold">Our Features</h1>
+        <h1 className="text-6xl 2xl:text-7xl font-semibold">Our Features</h1>
         <div className="pt-20 relative">
           <div className="flex flex-col lg:flex-row justify-between gap-5">
             <div className="flex lg:flex-col gap-5">
@@ -16,10 +16,10 @@ const Feature = () => {
                 {/* menambah garis putus2 */}
               </div>
               <div className="">
-                <div className="text-4xl py-5 pb-7 text-left lg:text-center font-semibold">
+                <div className="text-3xl 2xl:text-[2.5rem] py-5 pb-7 2xl:pb-10 text-left lg:text-center font-semibold">
                   Dynamic Packaging
                 </div>
-                <div className="secol text-base text-left lg:text-center leading-relaxed">
+                <div className="secol text-base 2xl:text-xl text-left lg:text-center leading-relaxed">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Reprehenderit blanditiis tempore quam! Quis, dolor hict.
                 </div>
@@ -33,10 +33,10 @@ const Feature = () => {
                 </div>
               </div>
               <div className="">
-                <div className="text-4xl py-5 pb-7 text-right lg:text-center font-semibold">
+                <div className="text-3xl 2xl:text-[2.5rem] py-5 pb-7 2xl:pb-10 text-right lg:text-center font-semibold">
                   Instant Itineary
                 </div>
-                <div className="secol text-base text-right lg:text-center leading-relaxed">
+                <div className="secol text-base 2xl:text-xl text-right lg:text-center leading-relaxed">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Reprehenderit blanditiis tempore quam! Quis, dolor hic eos
                   commodie.
@@ -53,10 +53,10 @@ const Feature = () => {
                 {/* menambah garis putus2 */}
               </div>
               <div className="">
-                <div className="text-4xl py-5 pb-7 text-left lg:text-center font-semibold">
+                <div className="text-3xl 2xl:text-[2.5rem] py-5 pb-7 2xl:pb-10 text-left lg:text-center font-semibold">
                   Multiple Vertical
                 </div>
-                <div className="secol text-base text-left lg:text-center leading-relaxed">
+                <div className="secol text-base 2xl:text-xl text-left lg:text-center leading-relaxed">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Reprehenderit blanditiis tempore quam! Quis, dolor hic. .
                 </div>

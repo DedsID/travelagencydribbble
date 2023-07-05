@@ -8,12 +8,12 @@ const Revo = () => {
   return (
     <div className="mt-40">
       <center>
-        <h1 className="text-5xl 2xl:text-7xl xl:w-2/4 text-center leading-snug font-semibold">
+        <h1 className="text-6xl 2xl:text-7xl xl:w-[60%] 2xl:w-2/4 text-center leading-snug 2xl:leading-normal font-semibold">
           Revolutionizing The Ways We Travel
         </h1>
       </center>
       <div className="pt-20 relative">
-        <div className="flex flex-col gap-y-5 xl:flex-row xl:gap-x-20">
+        <div className="flex flex-col gap-y-5 xl:flex-row xl:gap-x-16">
           <RevoCard
             imageSrc={pic1}
             altText="Deskripsi Gambar 1"

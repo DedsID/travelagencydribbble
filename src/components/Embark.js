@@ -17,11 +17,11 @@ const Embark = () => {
           </div>
         </div>
 
-        <div className="text-7xl 2xl:text-8xl pt-5 pb-7 font-medium leading-tight">
+        <div className="text-7xl 2xl:text-8xl pt-5 pb-7 font-semibold leading-tight 2xl:leading-snug tracking-wide">
           Embark on Unforgottable Adventures
         </div>
 
-        <div className="secol text:base ataslaptop:text-xl text-justify md:text-left">
+        <div className="secol text:base 2xl:text-xl text-justify md:text-left">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
           accusantium vitae sunt ea officia totam earum omnis id quo architecto
           repellendus fuga, nam.
@@ -62,12 +62,12 @@ const Embark = () => {
         <img
           src={EmbarkPic}
           alt="apa aja"
-          className="absolute w-full max-w-[700px] max-h-[700px] -top-16 -right-28"
+          className="absolute w-full max-w-[750px] max-h-[750px] -top-16 -right-28"
         />
         <img
           src={Plane}
           alt="apa aja"
-          className="w-24 h-24 absolute -top-8 -left-10 opacity-50"
+          className="w-24 h-24 absolute -top-8 -left-10 opacity-70"
         />{" "}
         {/** pesawat pesawatan */}
         {/* Small Card */}
