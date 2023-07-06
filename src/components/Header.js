@@ -32,7 +32,7 @@ const Header = () => {
     <header
       className={`py-5 container px-[10%] flex items-center justify-between fixed top-0 w-full transition-color duration-300 z-50 ${
         isScrollUp
-          ? "bg-gray-200 bg-opacity-60 backdrop-filter backdrop-blur-lg"
+          ? "bg-gray-200 bg-opacity-60 backdrop-filter backdrop-blur-lg h-16"
           : "bg-transparent"
       }`}
     >

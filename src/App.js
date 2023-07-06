@@ -12,13 +12,15 @@ function App() {
   return (
     <div>
       <Header />
-      <Embark />
-      <Feature />
-      <Services />
-      <Stories />
-      <Popular />
-      <Revo />
-      <Footer />
+      <div className="px-[10%]">
+        <Embark />
+        <Feature />
+        <Services />
+        <Stories />
+        <Popular />
+        <Revo />
+        <Footer />
+      </div>
     </div>
   );
 }

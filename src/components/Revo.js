@@ -6,7 +6,7 @@ import pic3 from "./images/pic3.jpg";
 
 const Revo = () => {
   return (
-    <div className="container px-[10%] mt-40">
+    <div className="mt-40">
       <center>
         <h1 className="text-6xl 2xl:text-7xl xl:w-[60%] 2xl:w-2/4 text-center leading-snug 2xl:leading-normal font-semibold">
           Revolutionizing The Ways We Travel

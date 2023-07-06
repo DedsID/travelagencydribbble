@@ -8,7 +8,7 @@ import Plane from "./images/plane.png";
 
 const Embark = () => {
   return (
-    <div className="flex justify-between mt-44 container px-[10%]">
+    <div className="flex justify-between mt-44">
       <div className="md:max-w-xl ataslaptop:max-w-2xl">
         <div className="relative inline-block">
           <div className="text-base 2xl:text-lg text-gray-600 border border-black pr-4 py-1 rounded-full">
