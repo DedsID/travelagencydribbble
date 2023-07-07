@@ -14,7 +14,7 @@ const Stories = () => {
   }, []);
 
   return (
-    <div className="flex mt-80">
+    <div className="flex mt-20 xl:mt-80">
       {/* <div className="">
         <div className="hidden laptop:block bg-orange-300 rounded-3xl max-w-[530px] max-h-[530px] 2xl:max-w-[650px] 2xl:max-h-[650px] items-end relative">
           <img

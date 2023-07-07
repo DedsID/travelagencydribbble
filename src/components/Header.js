@@ -30,14 +30,14 @@ const Header = () => {
   return (
     // <header className="pt-10 pb-20 flex items-center justify-between relative">
     <header
-      className={`py-5 container px-[10%] flex items-center justify-between fixed top-0 w-full transition-color duration-300 z-50 ${
+      className={`py-5 container px-[5%] md:px-[10%] flex items-center justify-between fixed top-0 w-full transition-color duration-300 z-50 ${
         isScrollUp
           ? "bg-gray-200 bg-opacity-60 backdrop-filter backdrop-blur-lg h-16"
           : "bg-transparent"
       }`}
     >
       <div className="text-4xl font-extrabold text-text">Tourplace</div>
-      <nav className="xl:hidden">
+      <nav className="xl:hidden order-first">
         <button
           className="focus:outline-none text-gray-500 hover:text-gray-800"
           onClick={toggleMenu}
@@ -64,9 +64,9 @@ const Header = () => {
         </button>
       </nav>
       <nav
-        className={`xl:flex ${
-          isMenuOpen ? "block" : "hidden"
-        } absolute inset-x-0 top-28 left-0 max-xl:bg-gray-200 max-xl:bg-opacity-60 max-xl:backdrop-filter max-xl:backdrop-blur-md z-10 xl:relative xl:top-0 xl:bg-opacity-0 rounded-b-3xl`}
+        className={`xl:flex ${isMenuOpen ? "block" : "hidden"} ${
+          isScrollUp ? "top-16" : "top-0"
+        } absolute inset-x-0 top-28 left-0 max-xl:bg-gray-200 max-xl:bg-opacity-90 max-xl:backdrop-filter max-xl:backdrop-blur-md z-10 xl:relative xl:top-0 xl:bg-opacity-0 rounded-b-3xl`}
       >
         <ul className="w-full px-10 py-5 flex flex-col xl:flex-row space-y-4 xl:space-y-0 xl:space-x-4 font-medium text-xl 2xl:text-2xl">
           <li className="xl:px-5">

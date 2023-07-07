@@ -20,7 +20,7 @@ const Popular = () => {
   };
 
   return (
-    <div className="mt-40">
+    <div className="mt-20 xl:mt-40">
       <div className="flex justify-between items-center py-20">
         <div className="text-6xl 2xl:text-7xl max-w-lg leading-snug font-semibold">
           Find Popular Destination

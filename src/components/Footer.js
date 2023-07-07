@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col xl:flex-row mt-40 pb-20">
+    <div className="flex flex-col xl:flex-row mt-16 xl:mt-40 pb-20">
       <div className="xl:w-[25%] xl:mr-12">
         <div className="text-4xl 2xl:text-5xl pb-5 font-bold">Tourplace</div>
         <div className="secol text-base 2xl:text-2xl leading-relaxed">

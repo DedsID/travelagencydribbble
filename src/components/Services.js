@@ -7,7 +7,7 @@ import Plane from "./images/plane.png";
 
 const Services = () => {
   return (
-    <div className="flex mt-40">
+    <div className="flex mt-20 xl:mt-40">
       <div className="md:max-w-md 2xl:max-w-lg">
         <div className="text-6xl 2xl:text-7xl pb-14 leading-snug 2xl:leading-snug font-semibold">
           What Services We Provide
