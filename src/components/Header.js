@@ -68,7 +68,7 @@ const Header = () => {
           isScrollUp ? "top-16" : "top-0"
         } absolute inset-x-0 top-28 left-0 max-xl:bg-gray-200 max-xl:bg-opacity-90 max-xl:backdrop-filter max-xl:backdrop-blur-md z-10 xl:relative xl:top-0 xl:bg-opacity-0 rounded-b-3xl`}
       >
-        <ul className="w-full px-10 py-5 flex flex-col xl:flex-row space-y-4 xl:space-y-0 xl:space-x-4 font-medium text-xl 2xl:text-2xl">
+        <ul className="w-full px-10 py-5 flex flex-col xl:flex-row space-y-4 xl:space-y-0 xl:space-x-4 font-medium text-xl">
           <li className="xl:px-5">
             <a href="#" className="hover:text-gray-200 font-bold">
               Home

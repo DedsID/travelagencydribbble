@@ -19,7 +19,7 @@ const Feature = () => {
                 <div className="text-3xl 2xl:text-[2.5rem] py-5 pb-7 2xl:pb-10 text-left lg:text-center font-semibold">
                   Dynamic Packaging
                 </div>
-                <div className="secol text-base 2xl:text-xl text-left lg:text-center leading-relaxed">
+                <div className="secol text-base text-left lg:text-center leading-relaxed">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Reprehenderit blanditiis tempore quam! Quis, dolor hict.
                 </div>
@@ -36,7 +36,7 @@ const Feature = () => {
                 <div className="text-3xl 2xl:text-[2.5rem] py-5 pb-7 2xl:pb-10 text-right lg:text-center font-semibold">
                   Instant Itineary
                 </div>
-                <div className="secol text-base 2xl:text-xl text-right lg:text-center leading-relaxed">
+                <div className="secol text-base text-right lg:text-center leading-relaxed">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Reprehenderit blanditiis tempore quam! Quis, dolor hic eos
                   commodie.
@@ -56,7 +56,7 @@ const Feature = () => {
                 <div className="text-3xl 2xl:text-[2.5rem] py-5 pb-7 2xl:pb-10 text-left lg:text-center font-semibold">
                   Multiple Vertical
                 </div>
-                <div className="secol text-base 2xl:text-xl text-left lg:text-center leading-relaxed">
+                <div className="secol text-base text-left lg:text-center leading-relaxed">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Reprehenderit blanditiis tempore quam! Quis, dolor hic. .
                 </div>
