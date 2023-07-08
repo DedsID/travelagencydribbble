@@ -9,13 +9,12 @@
   }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap");
 
 * {
-  font-family: 'Noto Serif JP', serif;
+  font-family: "Noto Serif JP", serif;
   color: #222222;
   margin: 0;
-  
 }
 
 .secol {
@@ -24,13 +23,6 @@
 
 body {
   background-color: rgb(246, 246, 246);
-  padding-left: 10%;
-  padding-right: 10%;
-  
-}
-
-.desti {
-  right: 45%;
 }
 
 .scroll-w {
